@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Core API (Node.js)",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/core-api/server.js",
+      "envFile": "${workspaceFolder}/core-api/.env"
+    },
+    {
+      "name": "Debug AI Service (Python Flask)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/ai-service/app.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}
